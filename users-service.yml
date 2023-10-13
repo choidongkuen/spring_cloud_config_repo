@@ -2,7 +2,7 @@ spring:
   datasource:
     driver-class-name: org.h2.Driver
     username: sa
-    password: 1111
+    password: '{cipher}40a969590c876020c9cc941cd6cc30df66eb676c7ae5b9cca525a409dd25159a'
     url: jdbc:h2:tcp://localhost/~/ecommerce
 
 jwt:
