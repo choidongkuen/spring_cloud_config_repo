@@ -1,16 +1,22 @@
-spring:
-  datasource:
-    driver-class-name: org.h2.Driver
-    username: sa
-    password: '{cipher}40a969590c876020c9cc941cd6cc30df66eb676c7ae5b9cca525a409dd25159a'
-    url: jdbc:h2:tcp://localhost/~/ecommerce
+# spring:
+#   datasource:
+#     driver-class-name: org.h2.Driver
+#     username: sa
+#     password: '{cipher}40a969590c876020c9cc941cd6cc30df66eb676c7ae5b9cca525a409dd25159a'
+#     url: jdbc:h2:tcp://localhost/~/ecommerce
 
-jwt:
-  application: users-service
-  expiration: 3600000
-  secret: '{cipher}236979CB6F1AD6B6A6184A31E6BE37DB3818CC36871E26235DD67DCFE4041492'
-  type: Bearer
+# jwt:
+#   application: users-service
+#   expiration: 3600000
+#   secret: '{cipher}236979CB6F1AD6B6A6184A31E6BE37DB3818CC36871E26235DD67DCFE4041492'
+#   type: Bearer
+#   profile: default
+
+# orders-service:
+#   url: http://localhost:8000/orders-service/users/%s/orders
+
+
+application:
+  name: users-service
+  file: users-service.yml
   profile: default
-
-orders-service:
-  url: http://localhost:8000/orders-service/users/%s/orders
