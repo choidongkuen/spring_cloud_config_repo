@@ -1,3 +1,10 @@
+jwt:
+  application: users-service
+  expiration: 3600000
+  secret: secret-key
+  type: Bearer
+  profile: defalut
+
 application:
   name: users-service
   file: users-service-default.yml
