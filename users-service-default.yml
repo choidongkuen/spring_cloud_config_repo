@@ -1,0 +1,4 @@
+application:
+  name: users-service
+  file: users-service-default.yml
+  profile: default
