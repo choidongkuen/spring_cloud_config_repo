@@ -3,4 +3,4 @@ spring:
     driver-class-name: org.h2.Driver
     username: sa
     password: 
-    url: jdbc:h2:tcp://localhost/~/springcloud_ecommerce_orders
+    url: jdbc:h2:tcp://localhost/~/springcloud_ecommerce_orders01
