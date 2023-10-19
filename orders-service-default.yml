@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: '{cipher}AQAvM+5c2CIyaxoWhrZM2R4cNvWLFbEjZh5sso01YOUxPwD0aFfLqcdbkaeI3bqGZZmUnjsAdu6vdJZPxgrV469+ixgEHfIm5BE07+TXWyhOCAd/kCxuGdJAcHJcBUiIOcbqzCdo5idI4ctyrZ8dJF83rIfYP8oDAvpR+uIyNfcl3FORX+rUAoc1QKUx4LdinbmucMHQQlUF0TMn101RxN8IhsNuYSm6Va9FW/YiGQdsxxKvsL/VDYzeNuv8X+l5JmSRsWqSTbkr37F8/FvgkSCoDmSVZvZ9KIUrY+ncQY2CE4L1MkirrFqbEmQMqaXr8/VsznxSdICf4J7FBEoEptH/Oh2/AUAkMonEVmsx5u/Ff21p/K1Q2nPMW9Oau15/OaM='
+    url: jdbc:h2:tcp://localhost/~/springcloud_ecommerce_orders
