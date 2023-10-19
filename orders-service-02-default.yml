@@ -2,5 +2,5 @@ spring:
   datasource:
     driver-class-name: org.h2.Driver
     username: sa
-    password: 1111
+    password: 
     url: jdbc:h2:tcp://localhost/~/springcloud_ecommerce_orders02
