@@ -2,7 +2,13 @@ spring:
   datasource:
     driver-class-name: org.h2.Driver
     username: sa
-    password: '{cipher}40a969590c876020c9cc941cd6cc30df66eb676c7ae5b9cca525a409dd25159a'
+    password: '{cipher}AQBo4y2dG9mEPoq6CReH3NDXqn3Cfgk
+    x7CMguuGEnSy/cebf0pj184a2DCi1XVhjh29c1H0OFh9rWy0LEoV
+    y5Y2LYyN6w11iJAFL95r6O+gdE3IVPqguRuNyAqMwfQx7DBAAYRnZkU7LbyfP
+    ceg7U5mTwCGT+w3qIW8FuNS1794vdUdwbPp5XOLxnYmqz43hfbIMiKjyWDAMlHDzEC0G
+    k7ADvHmf0fva8rPc2gq8FpuHrAt8xw4BPJETw4on/wGCeenJPpVMs1vtc91CPR1HjH
+    6M7G7VInGuU7rrLrprzcaIwvhrISTFPlwcooXPZiooQoKzQTmoErCHNd73i+xBwFUpHj
+    ApZ2bNPK2nK2LG4yd5REUGmw5j7pMYSDANz0ac8k='
     url: jdbc:h2:tcp://localhost/~/ecommerce
 
 jwt:
