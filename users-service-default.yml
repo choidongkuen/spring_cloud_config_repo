@@ -1,10 +1,9 @@
 spring:
   datasource:
-    driver-class-name: org.h2.Driver
-    username: sa
-    # password: '{cipher}AQAsVN1ANqOcRTtZmc21PxUE2R8ws/u+FyANXVqoauUmxOH67olcLoCgEk4UqeHdk9FfZwbnr18Ty+itXsEJxl+TObQFAVmnwabdmjzrPAmL5PonHrHOmXiUf/lTYqbGta/8M3WaTrNkk3ULRCHpIbJUwJoT9qyPFDfRtBQ98BFOjwq1bnOGuKRn59jRe6u+EncHcDh+TAgpdoW0/T/ELYk0COrU3hFC/QoECh+CNcGdfqNFNgbJx5cm3Zg9d+XxOGxEVLFMSLl+pEjaqTM/mqqKv86G82Y5xJME8bahkk0rZuVIeT2XYvUN47J0FATy/AdD+YXuYtOm2nDn8ZCdiguwbdS31hZ+lAbPJon9eI0t9yr04scr6wEzrcscrsT+jlc='
-    url: jdbc:h2:tcp://localhost/~/springcloud_ecommerce_users
-
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: root
+    password: '{cipher}AQAhkv5yFDL2YZGXmdGx1q+LOu6EuYkljNqo+sV7mFHYQdUX1dZmvOHHusKBWpAGX+SGcIvI+DoqEBy/252q1UhZ07JFHGa2HMDE4TpZR0R3+RV3TQpzulfywam9En0wDzL8mR9dyIxCw9OyMIPHiar/oL4FHcqqvNoww2hptf0lmoaTJU4jj7Q+jtj2yxDlJg/nxirrbVJjGPvzDln/NcOPnx0iEHmK1IXYL9rtVp4cu1z/Lp/r0+lFGzsI+22xKh1HdQcylEmLu1B4BlS6GemeEOO8MSkbFIdE5c+DRTigZAnZoH9YLL7FHOz8ZxiDh7ywWOUguS61G2rkzNTYWGNzz8Pwba7AovSultXr0i1+pI6tFF1RPXMDB8bEjg83mfE='
+    url: jdbc:mariadb://localhost:3308/users?&characterEncoding=UTF-8&serverTimezone=Asia/Seoul
 
 jwt:
   application: users-service
