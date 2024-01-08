@@ -1,6 +1,0 @@
-spring:
-  datasource:
-    driver-class-name: org.mariadb.jdbc.Driver
-    username: root
-    password: '{cipher}AQALxGwUQjQuO/2CE9LasctvMF8a4TeWB7YcT04BcKybVLpBl/OKqH5YELGrcLfaf6eEzWnOcGT97cb0+35i6AeQl6xVF29py4nEGeGqAazK2Haj7jyyY1Vqh0qjTpe4VRKW7BwLiMGWDFi3Op74y7s5C7EtKWQgMLzgS1ookHz4LrfH2Deuszf7fYu13QsEaT120zmeMWTQErouwXHOWVWTwzmxL5a4rCLHuNgpYPcJytvMoAiqs65DZ2q0UzLIueA2LmxFxXZgqpu8cgcariPiB2pBVWLVdXq80l8Ae+YdX2uBKIOM/IaVjOwEL1rxNGIiDu3YQxwrWVSydujc9XTenGCvSolqMFAapyW1LTvZTxJIujWvjsrHjXNY+OmGv18='
-    url: jdbc:mariadb://localhost:3300/orders02?&characterEncoding=UTF-8&serverTimezone=Asia/Seoul
