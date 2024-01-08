@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: root
+    password: '{cipher}AQB/wJwS8bFtuoCYXoGbZQSDFre5zZKaxMxIfU3nGACIHjQqNqRDDVpuivzDluAzKyXlkV9kxTTlPxoGMX1T0A7tqKZPGn1u6HHQHqiEl6R0GRYVg2VtrJnUWGea6St9M/CLJOo1C9MDSh6A2gJ6362gMJIMFR21q/Ida7nKX6511BaoYqhyHrY0y40LS5o0oyhFjUV30pLf3GMq/YgI7BnM++F7PuMy9yLGiFMQ1KDEXWUFwrnu1cwemXxeRi+TXicFcQv91eKwAhtWvT1afBn2SCpTOPOvDuhGFlxD5Xvs8zCedKggAK6JBaHxcZll2CD8VsDosFIY42S1gg4BSZfal1rgkILc2Z7qMEnl5hUDabil+AlZXtKKRHDzob5n2TQ='
+    url: jdbc:mariadb://localhost:3300/catalogs?&characterEncoding=UTF-8&serverTimezone=Asia/Seoul
+
+say:
+  hello: 안녕
