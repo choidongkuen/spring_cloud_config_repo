@@ -6,15 +6,8 @@ spring:
     url: jdbc:mariadb://localhost:3300/users?&characterEncoding=UTF-8&serverTimezone=Asia/Seoul
 
 jwt:
-  application: users-service
   expiration: 3333
   secret: secret-key
-  type: Bearer
-  profile: defalut
-
-application:
-  name: users-service
-  file: users-service-default.yml
   
 
   
