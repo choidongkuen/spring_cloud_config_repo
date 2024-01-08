@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: root
+    password: '{cipher}AQAhkv5yFDL2YZGXmdGx1q+LOu6EuYkljNqo+sV7mFHYQdUX1dZmvOHHusKBWpAGX+SGcIvI+DoqEBy/252q1UhZ07JFHGa2HMDE4TpZR0R3+RV3TQpzulfywam9En0wDzL8mR9dyIxCw9OyMIPHiar/oL4FHcqqvNoww2hptf0lmoaTJU4jj7Q+jtj2yxDlJg/nxirrbVJjGPvzDln/NcOPnx0iEHmK1IXYL9rtVp4cu1z/Lp/r0+lFGzsI+22xKh1HdQcylEmLu1B4BlS6GemeEOO8MSkbFIdE5c+DRTigZAnZoH9YLL7FHOz8ZxiDh7ywWOUguS61G2rkzNTYWGNzz8Pwba7AovSultXr0i1+pI6tFF1RPXMDB8bEjg83mfE='
+    url: jdbc:mariadb://localhost:3300/users?&characterEncoding=UTF-8&serverTimezone=Asia/Seoul
+
+jwt:
+  application: users-service
+  expiration: 3600000
+  secret: secret-key
+  type: Bearer
+  profile: defalut
+
+application:
+  name: users-service
+  file: users-service-default.yml
+  
+
+  
