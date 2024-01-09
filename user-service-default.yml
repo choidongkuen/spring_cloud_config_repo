@@ -1,6 +1,6 @@
 jwt:
   expiration: 360000000
-  secret: secret-key-change
+  secret: change
   
 
   
