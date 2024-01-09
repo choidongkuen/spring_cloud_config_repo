@@ -1,6 +1,6 @@
 jwt:
   application: spring-api-gateway
   expiration: 3600000
-  secret: secret-key
+  secret: secret-key-change#1
   type: Bearer
   profile: api-gateway
