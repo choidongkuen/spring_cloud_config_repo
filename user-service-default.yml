@@ -1,6 +1,6 @@
 jwt:
   expiration: 360000000
-  secret: doge coin
+  secret: xrp
   
 
   
