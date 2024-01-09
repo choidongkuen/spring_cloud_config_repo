@@ -1,5 +1,5 @@
 jwt:
-  expiration: 55
+  expiration: 11
   secret: secret-key
   
 
